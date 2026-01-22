@@ -1,0 +1,207 @@
+.header {
+    background-color: #ff69b4;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+/* 表のレイアウト */
+
+.nine-table {
+    border-collapse: collapse;
+    margin: 40px auto;
+    width: 60vw;
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.nine-table td {
+    border: 1px solid #aaa;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.karamu{
+    background-color: #c0c0c0;
+    color: #000;
+    border: 2px solid #000 !important;
+}
+.sityu{
+    border: 2px solid #000 !important;
+}
+
+/* 干支 */
+.group-5{
+    border-left: 2px solid #000 !important;
+    border-bottom:2px solid #000 !important;
+}
+.group-5-2{
+    border-bottom:2px solid #000 !important;
+}
+.group-6{
+    border-left: 2px solid #000 !important;
+    border-bottom:2px solid #000 !important;
+}
+.group-6-2{
+    border-bottom:2px solid #000 !important;
+}
+.group-7{
+    border-left: 2px solid #000 !important;
+    border-bottom:2px solid #000 !important;  
+}
+.group-7-2{
+    border-bottom:2px solid #000 !important;
+}
+.group-8{
+    border-left: 2px solid #000 !important;
+    border-bottom:2px solid #000 !important;
+}
+.group-8-2{
+    border-bottom:2px solid #000 !important;
+}
+
+/* 蔵干 */
+.C1{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+}
+.C2{
+    border-bottom:#000 2px solid !important;
+}
+.C3{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+}
+.C4{
+    border-bottom:#000 2px solid !important;
+}
+.C5{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+}
+.C6{
+    border-bottom:#000 2px solid !important;
+}
+.C7{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+}
+.C8{
+    border-bottom:#000 2px solid !important;
+}
+
+/* 天星 */
+.D1{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+    border-right:#fff 2px solid !important;
+}
+.D2{
+    border-bottom:#000 2px solid !important;
+    border-right:#000 2px solid !important;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.slash-cell {
+    background-color: #000;
+    border: #000 2px solid !important;
+}
+.D5{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+    border-right:#fff 2px solid !important;
+}
+.D6{
+    border-bottom:#000 2px solid !important;
+    border-right:#000 2px solid !important;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.D7{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+    border-right:#fff 2px solid !important;
+}
+.D8{
+    border-bottom:#000 2px solid !important;
+    border-right:#000 2px solid !important;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+/* 地星 */
+.E1{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+    border-right:#fff 2px solid !important;
+}
+.E2{
+    border-bottom:#000 2px solid !important;
+    border-right:#000 2px solid !important;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.E3{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+    border-right:#fff 2px solid !important;
+}
+.E4{
+    border-bottom:#000 2px solid !important;
+    border-right:#000 2px solid !important;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.E5{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+    border-right:#fff 2px solid !important;
+}
+.E6{
+    border-bottom:#000 2px solid !important;
+    border-right:#000 2px solid !important;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.E7{
+    border-left:#000 2px solid !important;
+    border-bottom:#000 2px solid !important;
+    border-right:#fff 2px solid !important;
+}
+.E8{
+    border-bottom:#000 2px solid !important;
+    border-right:#000 2px solid !important;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+/* 十二運星 */
+.F1{
+    border: #000 2px solid !important;
+}
+.F3{
+    border: #000 2px solid !important;
+}
+.F5{
+    border: #000 2px solid !important;
+}
+.F7{
+    border: #000 2px solid !important;
+}
+/* 特殊星 */
+.group-G{
+    height:200px;
+}
+.G1{
+    border: #000 2px solid !important;
+}
+.G3{
+    border: #000 2px solid !important;
+}
+.G5{
+    border: #000 2px solid !important;
+}
+.G7{
+    border: #000 2px solid !important;
+}
