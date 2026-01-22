@@ -16,7 +16,6 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .nine-table td {
-    border: 1px solid #aaa;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -25,183 +24,193 @@
 .karamu{
     background-color: #c0c0c0;
     color: #000;
-    border: 2px solid #000 !important;
+    border: 2px solid #000;
 }
 .sityu{
-    border: 2px solid #000 !important;
+    border: 2px solid #000;
 }
 
 /* 干支 */
 .group-5{
-    border-left: 2px solid #000 !important;
-    border-bottom:2px solid #000 !important;
+    border-left: 2px solid #000;
+    border-bottom:2px solid #000;
+    border-right: 1px solid #aaa;
 }
 .group-5-2{
-    border-bottom:2px solid #000 !important;
+    border-bottom:2px solid #000;
+    border-top:1px solid #aaa;
 }
 .group-6{
-    border-left: 2px solid #000 !important;
-    border-bottom:2px solid #000 !important;
+    border-left: 2px solid #000;
+    border-bottom:2px solid #000;
+    border-right: 1px solid #aaa;
 }
 .group-6-2{
-    border-bottom:2px solid #000 !important;
+    border-bottom:2px solid #000;
+    border-top:1px solid #aaa;
 }
 .group-7{
-    border-left: 2px solid #000 !important;
-    border-bottom:2px solid #000 !important;  
+    border-left: 2px solid #000;
+    border-bottom:2px solid #000;  
+    border-right: 1px solid #aaa;
 }
 .group-7-2{
-    border-bottom:2px solid #000 !important;
+    border-bottom:2px solid #000;
+    border-top:1px solid #aaa;
 }
 .group-8{
-    border-left: 2px solid #000 !important;
-    border-bottom:2px solid #000 !important;
+    border-left: 2px solid #000;
+    border-bottom:2px solid #000;
+    border-right: 1px solid #aaa;
 }
 .group-8-2{
-    border-bottom:2px solid #000 !important;
+    border-bottom:2px solid #000;
+    border-top:1px solid #aaa;
 }
 
 /* 蔵干 */
 .C1{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#aaa 1px solid;
 }
 .C2{
-    border-bottom:#000 2px solid !important;
+    border-bottom:#000 2px solid;
 }
 .C3{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#aaa 1px solid;
 }
 .C4{
-    border-bottom:#000 2px solid !important;
+    border-bottom:#000 2px solid;
 }
 .C5{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#aaa 1px solid;
 }
 .C6{
-    border-bottom:#000 2px solid !important;
+    border-bottom:#000 2px solid;
 }
 .C7{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#aaa 1px solid;
 }
 .C8{
-    border-bottom:#000 2px solid !important;
+    border-bottom:#000 2px solid;
 }
 
 /* 天星 */
 .D1{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
-    border-right:#fff 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#fff 2px solid;
 }
 .D2{
-    border-bottom:#000 2px solid !important;
-    border-right:#000 2px solid !important;
+    border-bottom:#000 2px solid;
+    border-right:#000 2px solid;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
-.slash-cell {
-    background-color: #000;
-    border: #000 2px solid !important;
-}
 .D5{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
-    border-right:#fff 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#fff 2px solid;
 }
 .D6{
-    border-bottom:#000 2px solid !important;
-    border-right:#000 2px solid !important;
+    border-bottom:#000 2px solid;
+    border-right:#000 2px solid;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
 .D7{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
-    border-right:#fff 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#fff 2px solid;
 }
 .D8{
-    border-bottom:#000 2px solid !important;
-    border-right:#000 2px solid !important;
+    border-bottom:#000 2px solid;
+    border-right:#000 2px solid;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
 
 /* 地星 */
 .E1{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
-    border-right:#fff 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#fff 2px solid;
 }
 .E2{
-    border-bottom:#000 2px solid !important;
-    border-right:#000 2px solid !important;
+    border-bottom:#000 2px solid;
+    border-right:#000 2px solid;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
 .E3{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
-    border-right:#fff 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#fff 2px solid;
+    border-top:#000 2px solid;
 }
 .E4{
-    border-bottom:#000 2px solid !important;
-    border-right:#000 2px solid !important;
+    border-bottom:#000 2px solid;
+    border-right:#000 2px solid;
+    border-top:#000 2px solid;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
 .E5{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
-    border-right:#fff 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#fff 2px solid;
 }
 .E6{
-    border-bottom:#000 2px solid !important;
-    border-right:#000 2px solid !important;
+    border-bottom:#000 2px solid;
+    border-right:#000 2px solid;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
 .E7{
-    border-left:#000 2px solid !important;
-    border-bottom:#000 2px solid !important;
-    border-right:#fff 2px solid !important;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+    border-right:#fff 2px solid;
 }
 .E8{
-    border-bottom:#000 2px solid !important;
-    border-right:#000 2px solid !important;
+    border-bottom:#000 2px solid;
+    border-right:#000 2px solid;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
 
 /* 十二運星 */
 .F1{
-    border: #000 2px solid !important;
+    border: #000 2px solid;
 }
 .F3{
-    border: #000 2px solid !important;
+    border: #000 2px solid;
 }
 .F5{
-    border: #000 2px solid !important;
+    border: #000 2px solid;
 }
 .F7{
-    border: #000 2px solid !important;
+    border: #000 2px solid;
 }
 /* 特殊星 */
 .group-G{
     height:200px;
 }
 .G1{
-    border: #000 2px solid !important;
+    border: #000 2px solid;
 }
 .G3{
-    border: #000 2px solid !important;
+    border: #000 2px solid;
 }
 .G5{
-    border: #000 2px solid !important;
+    border: #000 2px solid;
 }
 .G7{
-    border: #000 2px solid !important;
+    border: #000 2px solid;
 }
