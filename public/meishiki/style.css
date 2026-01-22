@@ -115,6 +115,11 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
+.D3{
+    border-top:#000 2px solid;
+    border-left:#000 2px solid;
+    border-bottom:#000 2px solid;
+}
 .D5{
     border-left:#000 2px solid;
     border-bottom:#000 2px solid;
@@ -233,6 +238,8 @@
     text-align: center;
     font-size: 1.1rem;
 }
+
+/* 大運 */
 .group-AA{
     background-color: #c0c0c0;
 }
@@ -246,21 +253,8 @@
     border-left:#000 3px solid !important;
 }
 
-.AB-12{
-    background-color: #c0c0c0;
-}
-.AC-12{
-    background-color: #c0c0c0;
-}
-.AD-12{
-    background-color: #c0c0c0;
-}
-.AE-12{
-    background-color: #c0c0c0;
-}
-.AF-12{
-    background-color: #c0c0c0;
-}
+/* 立運 */
+
 .AB-1 {
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -308,6 +302,132 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
+.AB-12{
+    background-color: #c0c0c0;
+}
 .AB{
     height:90px;
+}
+
+/* 干支 */
+.AC-12{
+    background-color: #c0c0c0;
+}
+
+/* 通運星 */
+.AD-12{
+    background-color: #c0c0c0;
+}
+
+/* 十二運 */
+.AE-12{
+    background-color: #c0c0c0;
+}
+
+/* 特殊星 */
+.AF-12{
+    background-color: #c0c0c0;
+}
+
+/* 縦6×横12の表（six-twelve-table-2用） */
+.six-twelve-table-2 {
+    border-collapse: collapse;
+    margin: 40px auto;
+    width: 90vw;
+    max-width: 900px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border:#000 2px solid;
+}
+.six-twelve-table-2 td {
+    border: 1.5px solid #000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* 年 */
+.BA-1{
+    background-color: #c0c0c0;
+}
+.BA-2{
+    background-color: #c0c0c0;
+}
+.BA-3{
+    background-color: #c0c0c0;
+}
+.BA-4{
+    background-color: #c0c0c0;
+}
+.BA-5{
+    background-color: #c0c0c0;
+}
+.BA-6{
+    background-color: #c0c0c0;
+}
+.BA-7{
+    background-color: #c0c0c0;
+}
+.BA-8{
+    background-color: #c0c0c0;
+}
+.BA-9{
+    background-color: #c0c0c0;
+}
+.BA-10{
+    background-color: #c0c0c0;
+}
+.BA-11{
+    background-color: #c0c0c0;
+}
+
+/* 干支 */
+.six-twelve-table-2 td:last-child {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.BC{
+    height:90px;
+}
+
+.BC-12{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    background-color: #c0c0c0;
+}
+
+/* 通運星 */
+
+.BE{
+    height:90px;
+}
+.BE-12{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    background-color: #c0c0c0;
+}
+
+/* 十二運星 */
+
+.BF{
+    height:70px;
+}
+.BF-12{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    background-color: #c0c0c0;
+}
+
+/* 特殊星 */
+
+.BG{
+    height:150px;
+}
+.BG-12{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    background-color: #c0c0c0;
 }
