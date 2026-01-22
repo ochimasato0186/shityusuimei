@@ -1,0 +1,50 @@
+
+
+.header {
+    background-color: #ff69b4;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+.input-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.year{
+    height: 50px;
+    width: 130px;
+    border:#000 1.5px solid;
+}
+.month{
+    height: 50px;
+    width: 130px;
+    border:#000 1.5px solid;
+}
+.day{
+    height: 50px;
+    width: 130px;
+    border:#000 1.5px solid;
+}
+.hour{
+    height: 50px;
+    width: 130px;
+    border:#000 1.5px solid;
+}
+
+/* 送信 */
+.submit-row {
+    text-align: center;
+    margin-top: 50px;
+}
+.submit-btn{
+    background-color: #ff69b4;
+    color: #fff;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+}
