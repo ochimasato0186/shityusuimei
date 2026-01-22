@@ -1,3 +1,4 @@
+
 .header {
     background-color: #ff69b4;
     padding: 20px;
@@ -213,4 +214,100 @@
 }
 .G7{
     border: #000 2px solid;
+}
+
+/* 縦6×横12の表 */
+.six-twelve-table {
+    border-collapse: collapse;
+    margin: 40px auto;
+    width: 90vw;
+    max-width: 900px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border:#000 2px solid;
+}
+.six-twelve-table td {
+    border: 1.5px solid #000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.group-AA{
+    background-color: #c0c0c0;
+}
+.AA2{
+    border-left:#000 3px solid !important;
+}
+.AA5{
+    border-left:#000 3px solid !important;
+}
+.AA8{
+    border-left:#000 3px solid !important;
+}
+
+.AB-12{
+    background-color: #c0c0c0;
+}
+.AC-12{
+    background-color: #c0c0c0;
+}
+.AD-12{
+    background-color: #c0c0c0;
+}
+.AE-12{
+    background-color: #c0c0c0;
+}
+.AF-12{
+    background-color: #c0c0c0;
+}
+.AB-1 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.AB-2 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.AB-3 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    border-left:#000 3px solid !important;
+}
+.AB-4 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.AB-5 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.AB-6 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    border-left:#000 3px solid !important;
+}
+.AB-7 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.AB-8 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.AB-9 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    border-left:#000 3px solid !important;
+}
+.AB-10 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.AB-11 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.AB{
+    height:90px;
 }
