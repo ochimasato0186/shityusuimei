@@ -1,3 +1,8 @@
+<?php
+$jsonPath = __DIR__ . '/../../data/data.json';
+$data = json_decode(file_get_contents($jsonPath), true);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,37 +29,90 @@
                     <td rowspan="2" class="karamu">四<br>柱</td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="sityu">④</td>
-                    <td colspan="2" class="sityu">③</td>
-                    <td colspan="2" class="sityu">②</td>
-                    <td colspan="2" class="sityu">①</td>
+                    <td colspan="2" class="sityu">
+                        <?= isset($data[0]['time']) ? htmlspecialchars($data[0]['time']) : '④' ?>
+                    </td>
+                    <td colspan="2" class="sityu">
+                        <?= isset($data[0]['day']) ? htmlspecialchars($data[0]['day']) : '③' ?>
+                    </td>
+                    <td colspan="2" class="sityu">
+                        <?= isset($data[0]['month']) ? htmlspecialchars($data[0]['month']) : '②' ?>
+                    </td>
+                    <td colspan="2" class="sityu">
+                        <?= isset($data[0]['year']) ? htmlspecialchars($data[0]['year']) : '①' ?>
+                    </td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="group-8">⑧</td>
-                    <td class="group-8-1">A2</td>
-                    <td rowspan="2" class="group-7">⑦</td>
-                    <td class="group-7-1">A4</td>
-                    <td rowspan="2" class="group-6">⑥</td>
-                    <td class="group-6-1">A6</td>
-                    <td rowspan="2" class="group-5">⑤</td>
-                    <td class="group-5-1">A8</td>
+                    <td rowspan="2" class="group-8">
+                        <!-- 生時の干支 -->
+                        <?= isset($data[1]['A1']) ? htmlspecialchars($data[1]['A1']) : '⑧' ?>
+                    </td>
+                    <td class="group-8-1">
+                        <?= isset($data[1]['A2']) ? htmlspecialchars($data[1]['A2']) : '⑤' ?>
+                    </td>
+                    <td rowspan="2" class="group-7">
+                        <!-- 生日の干支 -->
+                        <?= isset($data[1]['A3']) ? htmlspecialchars($data[1]['A3']) : '⑧' ?>
+                    </td>
+                    </td>
+                    <td class="group-7-1">
+                        <?= isset($data[1]['A4']) ? htmlspecialchars($data[1]['A4']) : '⑤' ?>
+                    </td>
+                    <td rowspan="2" class="group-6">
+                        <!--  生月の干支 -->
+                        <?= isset($data[1]['A5']) ? htmlspecialchars($data[1]['A5']) : '⑥' ?>
+                    </td>
+                    <td class="group-6-1">
+                        <?= isset($data[1]['A6']) ? htmlspecialchars($data[1]['A6']) : '⑤' ?>
+                    </td>
+                    <td rowspan="2" class="group-5">
+                        <!--  生年の干支 -->
+                        <?= isset($data[1]['A7']) ? htmlspecialchars($data[1]['A7']) : '⑤' ?>
+                    </td>
+                    <td class="group-5-1">
+                        <?= isset($data[1]['A8']) ? htmlspecialchars($data[1]['A8']) : '⑤' ?>
+                    </td>
                     <td rowspan="2" class="karamu">干<br>支</td>
                 </tr>
                 <tr>    
-                    <td class="group-8-2">B2</td>
-                    <td class="group-7-2">B4</td>
-                    <td class="group-6-2">B6</td>
-                    <td class="group-5-2">B8</td>
+                    <td class="group-8-2">
+                        <?= isset($data[1]['B2']) ? htmlspecialchars($data[1]['B2']) : 'B2' ?>
+                    </td>
+                    <td class="group-7-2">
+                        <?= isset($data[1]['B4']) ? htmlspecialchars($data[1]['B4']) : 'B4' ?>
+                    </td>
+                    <td class="group-6-2">
+                        <?= isset($data[1]['B6']) ? htmlspecialchars($data[1]['B6']) : 'B6' ?>
+                    </td>
+                    <td class="group-5-2">
+                        <?= isset($data[1]['B8']) ? htmlspecialchars($data[1]['B8']) : 'B8' ?>
+                    </td>
                 </tr>
                 <tr>
-                    <td class="C1">C1</td>
-                    <td class="C2">C2</td>
-                    <td class="C3">C3</td>
-                    <td class="C4">C4</td>
-                    <td class="C5">C5</td>
-                    <td class="C6">C6</td>
-                    <td class="C7">C7</td>
-                    <td class="C8">C8</td>
+                    <td class="C1">
+                        <?= isset($data[2]['C1']) ? htmlspecialchars($data[2]['C1']) : '' ?>
+                    </td>
+                    <td class="C2">
+                        <?= isset($data[2]['C2']) ? htmlspecialchars($data[2]['C2']) : '' ?>
+                    </td>
+                    <td class="C3">
+                        <?= isset($data[2]['C3']) ? htmlspecialchars($data[2]['C3']) : '' ?>
+                    </td>
+                    <td class="C4">
+                        <?= isset($data[2]['C4']) ? htmlspecialchars($data[2]['C4']) : '' ?>
+                    </td>
+                    <td class="C5">
+                        <?= isset($data[2]['C5']) ? htmlspecialchars($data[2]['C5']) : '' ?>
+                    </td>
+                    <td class="C6">
+                        <?= isset($data[2]['C6']) ? htmlspecialchars($data[2]['C6']) : '' ?>
+                    </td>
+                    <td class="C7">
+                        <?= isset($data[2]['C7']) ? htmlspecialchars($data[2]['C7']) : '' ?>
+                    </td>
+                    <td class="C8">
+                        <?= isset($data[2]['C8']) ? htmlspecialchars($data[2]['C8']) : '' ?>
+                    </td>
                     <td class="karamu">蔵<br>干</td>
                 </tr>
                 <tr>
