@@ -36,6 +36,8 @@
     border-left: 2px solid #000;
     border-bottom:2px solid #000;
     border-right: 1px solid #aaa;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 .group-5-2{
     border-bottom:2px solid #000;
@@ -45,6 +47,8 @@
     border-left: 2px solid #000;
     border-bottom:2px solid #000;
     border-right: 1px solid #aaa;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 .group-6-2{
     border-bottom:2px solid #000;
@@ -54,6 +58,8 @@
     border-left: 2px solid #000;
     border-bottom:2px solid #000;  
     border-right: 1px solid #aaa;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 .group-7-2{
     border-bottom:2px solid #000;
@@ -63,6 +69,8 @@
     border-left: 2px solid #000;
     border-bottom:2px solid #000;
     border-right: 1px solid #aaa;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 .group-8-2{
     border-bottom:2px solid #000;
