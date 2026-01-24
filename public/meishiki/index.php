@@ -45,7 +45,7 @@ $data = json_decode(file_get_contents($jsonPath), true);
                 <tr>
                     <td rowspan="2" class="group-8">
                         <!-- 生時の干支 -->
-                        <?= isset($data[1]['A1']) ? htmlspecialchars($data[1]['A1']) : '⑧' ?>
+                        <?= isset($data[1]['A1']) ? htmlspecialchars($data[1]['A1']) : '' ?>
                     </td>
                     <td class="group-8-1">
                         <?= isset($data[1]['A2']) ? htmlspecialchars($data[1]['A2']) : '⑤' ?>
@@ -116,39 +116,83 @@ $data = json_decode(file_get_contents($jsonPath), true);
                     <td class="karamu">蔵<br>干</td>
                 </tr>
                 <tr>
-                    <td class="D1">D1</td>
-                    <td class="D2">()</td>
+                    <td class="D1">
+                        <?= isset($data[3]['D1']) ? htmlspecialchars($data[3]['D1']) : '' ?>
+                    </td>
+                    <td class="D2">(
+                        <?= isset($data[3]['D2']) ? htmlspecialchars($data[3]['D2']) : '' ?>
+                    )</td>
                     <td class="D3"></td>       
                     <td class="D4"></td>
-                    <td class="D5">D5</td>
-                    <td class="D6">()</td>
-                    <td class="D7">D7</td>
-                    <td class="D8">()</td>
+                    <td class="D5">
+                        <?= isset($data[3]['D5']) ? htmlspecialchars($data[3]['D5']) : '' ?>
+                    </td>
+                    <td class="D6">(
+                        <?= isset($data[3]['D6']) ? htmlspecialchars($data[3]['D6']) : '' ?>
+                    )</td>
+                    <td class="D7">
+                        <?= isset($data[3]['D7']) ? htmlspecialchars($data[3]['D7']) : '' ?>
+                    </td>
+                    <td class="D8">(
+                        <?= isset($data[3]['D8']) ? htmlspecialchars($data[3]['D8']) : '' ?>
+                    )</td>
                     <td class="karamu">天<br>星</td>
                 </tr>
                 <tr>
-                    <td class="E1">E1</td>
-                    <td class="E2">()</td>
-                    <td class="E3">E3</td>
-                    <td class="E4">()</td>
-                    <td class="E5">E5</td>
-                    <td class="E6">()</td>
-                    <td class="E7">E7</td>
-                    <td class="E8">()</td>
+                    <td class="E1">
+                        <?= isset($data[4]['E1']) ? htmlspecialchars($data[4]['E1']) : '' ?>
+                    </td>
+                    <td class="E2">(
+                        <?= isset($data[4]['E2']) ? htmlspecialchars($data[4]['E2']) : '' ?>
+                    )</td>
+                    <td class="E3">
+                        <?= isset($data[4]['E3']) ? htmlspecialchars($data[4]['E3']) : '' ?>
+                    </td>
+                    <td class="E4">(
+                        <?= isset($data[4]['E4']) ? htmlspecialchars($data[4]['E4']) : '' ?>
+                    )</td>
+                    <td class="E5">
+                        <?= isset($data[4]['E5']) ? htmlspecialchars($data[4]['E5']) : '' ?>
+                    </td>
+                    <td class="E6">(
+                        <?= isset($data[4]['E6']) ? htmlspecialchars($data[4]['E6']) : '' ?>
+                    )</td>
+                    <td class="E7">
+                        <?= isset($data[4]['E7']) ? htmlspecialchars($data[4]['E7']) : '' ?>
+                    </td>
+                    <td class="E8">(
+                        <?= isset($data[4]['E8']) ? htmlspecialchars($data[4]['E8']) : '' ?>
+                    )</td>
                     <td class="karamu">地<br>星</td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="F1">F1</td>
-                    <td colspan="2" class="F3">F3</td>
-                    <td colspan="2" class="F5">F5</td>
-                    <td colspan="2" class="F7">F7</td>
+                    <td colspan="2" class="F1">
+                        <?= isset($data[5]['F1']) ? htmlspecialchars($data[5]['F1']) : '' ?>
+                    </td>
+                    <td colspan="2" class="F3">
+                        <?= isset($data[5]['F3']) ? htmlspecialchars($data[5]['F3']) : '' ?>
+                    </td>
+                    <td colspan="2" class="F5">
+                        <?= isset($data[5]['F5']) ? htmlspecialchars($data[5]['F5']) : '' ?>
+                    </td>
+                    <td colspan="2" class="F7">
+                        <?= isset($data[5]['F7']) ? htmlspecialchars($data[5]['F7']) : '' ?>
+                    </td>
                     <td class="karamu">運十<br>星二</td>
                 </tr>
                 <tr class="group-G">
-                    <td colspan="2" class="G1">G1</td>
-                    <td colspan="2" class="G3">G3</td>
-                    <td colspan="2" class="G5">G5</td>
-                    <td colspan="2" class="G7">G7</td>
+                    <td colspan="2" class="G1">
+                        <?= isset($data[6]['G1']) ? htmlspecialchars($data[6]['G1']) : '' ?>
+                    </td>
+                    <td colspan="2" class="G3">
+                        <?= isset($data[6]['G3']) ? htmlspecialchars($data[6]['G3']) : '' ?>
+                    </td>
+                    <td colspan="2" class="G5">
+                        <?= isset($data[6]['G5']) ? htmlspecialchars($data[6]['G5']) : '' ?>
+                    </td>
+                    <td colspan="2" class="G7">
+                        <?= isset($data[6]['G7']) ? htmlspecialchars($data[6]['G7']) : '' ?>
+                    </td>
                     <td class="karamu">特<br>殊<br>星</td>
                 </tr>
             </tbody>
