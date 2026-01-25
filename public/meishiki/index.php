@@ -1,5 +1,7 @@
 <?php
 $jsonPath = __DIR__ . '/../../data/data.json';
+$jsonPath = __DIR__ . '/../../data/hyou2.json';
+$jsonPath = __DIR__ . '/../../data/hyou3.json';
 $data = json_decode(file_get_contents($jsonPath), true);
 ?>
 
@@ -232,62 +234,150 @@ $data = json_decode(file_get_contents($jsonPath), true);
                 </tr>
                 <!-- 3行目 -->
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="AC-1">
+                        <?= isset($hyou2[1]['AC-1']) ? htmlspecialchars($hyou2[1]['AC-1']) : '' ?>
+                    </td>
+                    <td class="AC-2">
+                        <?= isset($hyou2[1]['AC-2']) ? htmlspecialchars($hyou2[1]['AC-2']) : '' ?>
+                    </td>
+                    <td class="AC-3">
+                        <?= isset($hyou2[1]['AC-3']) ? htmlspecialchars($hyou2[1]['AC-3']) : '' ?>
+                    </td>
+                    <td class="AC-4">
+                        <?= isset($hyou2[1]['AC-4']) ? htmlspecialchars($hyou2[1]['AC-4']) : '' ?>
+                    </td>
+                    <td class="AC-5">
+                        <?= isset($hyou2[1]['AC-5']) ? htmlspecialchars($hyou2[1]['AC-5']) : '' ?>
+                    </td>
+                    <td class="AC-6">
+                        <?= isset($hyou2[1]['AC-6']) ? htmlspecialchars($hyou2[1]['AC-6']) : '' ?>
+                    </td>
+                    <td class="AC-7">
+                        <?= isset($hyou2[1]['AC-7']) ? htmlspecialchars($hyou2[1]['AC-7']) : '' ?>
+                    </td>
+                    <td class="AC-8">
+                        <?= isset($hyou2[1]['AC-8']) ? htmlspecialchars($hyou2[1]['AC-8']) : '' ?>
+                    </td>
+                    <td class="AC-9">
+                        <?= isset($hyou2[1]['AC-9']) ? htmlspecialchars($hyou2[1]['AC-9']) : '' ?>
+                    </td>
+                    <td class="AC-10">
+                        <?= isset($hyou2[1]['AC-10']) ? htmlspecialchars($hyou2[1]['AC-10']) : '' ?>
+                    </td>
+                    <td class="AC-11">
+                        <?= isset($hyou2[1]['AC-11']) ? htmlspecialchars($hyou2[1]['AC-11']) : '' ?>
+                    </td>
                     <td class="AC-12">干<br>支</td>
                 </tr>
                 <!-- 4行目 -->
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="AD-1">
+                        <?= isset($hyou2[2]['AD-1']) ? htmlspecialchars($hyou2[2]['AD-1']) : '' ?>
+                    </td>
+                    <td class="AD-2">
+                        <?= isset($hyou2[2]['AD-2']) ? htmlspecialchars($hyou2[2]['AD-2']) : '' ?>
+                    </td>
+                    <td class="AD-3">
+                        <?= isset($hyou2[2]['AD-3']) ? htmlspecialchars($hyou2[2]['AD-3']) : '' ?>
+                    </td>
+                    <td class="AD-4">
+                        <?= isset($hyou2[2]['AD-4']) ? htmlspecialchars($hyou2[2]['AD-4']) : '' ?>
+                    </td>
+                    <td class="AD-5">
+                        <?= isset($hyou2[2]['AD-5']) ? htmlspecialchars($hyou2[2]['AD-5']) : '' ?>
+                    </td>
+                    <td class="AD-6">
+                        <?= isset($hyou2[2]['AD-6']) ? htmlspecialchars($hyou2[2]['AD-6']) : '' ?>
+                    </td>
+                    <td class="AD-7">
+                        <?= isset($hyou2[2]['AD-7']) ? htmlspecialchars($hyou2[2]['AD-7']) : '' ?>
+                    </td>
+                    <td class="AD-8">
+                        <?= isset($hyou2[2]['AD-8']) ? htmlspecialchars($hyou2[2]['AD-8']) : '' ?>
+                    </td>
+                    <td class="AD-9">
+                        <?= isset($hyou2[2]['AD-9']) ? htmlspecialchars($hyou2[2]['AD-9']) : '' ?>
+                    </td>
+                    <td class="AD-10">
+                        <?= isset($hyou2[2]['AD-10']) ? htmlspecialchars($hyou2[2]['AD-10']) : '' ?>
+                    </td>
+                    <td class="AD-11">
+                        <?= isset($hyou2[2]['AD-11']) ? htmlspecialchars($hyou2[2]['AD-11']) : '' ?>
+                    </td>
                     <td class="AD-12">通<br>運<br>星</td>
                 </tr>
                 <!-- 5行目 -->
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="AE-1">
+                        <?= isset($hyou2[3]['AE-1']) ? htmlspecialchars($hyou2[3]['AE-1']) : '' ?>
+                    </td>
+                    <td class="AE-2">
+                        <?= isset($hyou2[3]['AE-2']) ? htmlspecialchars($hyou2[3]['AE-2']) : '' ?>
+                    </td>
+                    <td class="AE-3">
+                        <?= isset($hyou2[3]['AE-3']) ? htmlspecialchars($hyou2[3]['AE-3']) : '' ?>
+                    </td>
+                    <td class="AE-4">
+                        <?= isset($hyou2[3]['AE-4']) ? htmlspecialchars($hyou2[3]['AE-4']) : '' ?>
+                    </td>
+                    <td class="AE-5">
+                        <?= isset($hyou2[3]['AE-5']) ? htmlspecialchars($hyou2[3]['AE-5']) : '' ?>
+                    </td>
+                    <td class="AE-6">
+                        <?= isset($hyou2[3]['AE-6']) ? htmlspecialchars($hyou2[3]['AE-6']) : '' ?>
+                    </td>
+                    <td class="AE-7">
+                        <?= isset($hyou2[3]['AE-7']) ? htmlspecialchars($hyou2[3]['AE-7']) : '' ?>
+                    </td>
+                    <td class="AE-8">
+                        <?= isset($hyou2[3]['AE-8']) ? htmlspecialchars($hyou2[3]['AE-8']) : '' ?>
+                    </td>
+                    <td class="AE-9">
+                        <?= isset($hyou2[3]['AE-9']) ? htmlspecialchars($hyou2[3]['AE-9']) : '' ?>
+                    </td>
+                    <td class="AE-10">
+                        <?= isset($hyou2[3]['AE-10']) ? htmlspecialchars($hyou2[3]['AE-10']) : '' ?>
+                    </td>
+                    <td class="AE-11">
+                        <?= isset($hyou2[3]['AE-11']) ? htmlspecialchars($hyou2[3]['AE-11']) : '' ?>
+                    </td>
                     <td class="AE-12">十<br>二<br>運</td>
                 </tr>
                 <!-- 6行目 -->
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="AF-1">
+                        <?= isset($hyou2[4]['AF-1']) ? htmlspecialchars($hyou2[4]['AF-1']) : '' ?>
+                    </td>
+                    <td class="AF-2">
+                        <?= isset($hyou2[4]['AF-2']) ? htmlspecialchars($hyou2[4]['AF-2']) : '' ?>
+                    </td>
+                    <td class="AF-3">
+                        <?= isset($hyou2[4]['AF-3']) ? htmlspecialchars($hyou2[4]['AF-3']) : '' ?>
+                    </td>
+                    <td class="AF-4">
+                        <?= isset($hyou2[4]['AF-4']) ? htmlspecialchars($hyou2[4]['AF-4']) : '' ?>
+                    </td>
+                    <td class="AF-5">
+                        <?= isset($hyou2[4]['AF-5']) ? htmlspecialchars($hyou2[4]['AF-5']) : '' ?>
+                    </td>
+                    <td class="AF-6">
+                        <?= isset($hyou2[4]['AF-6']) ? htmlspecialchars($hyou2[4]['AF-6']) : '' ?>
+                    </td>
+                    <td class="AF-7">
+                        <?= isset($hyou2[4]['AF-7']) ? htmlspecialchars($hyou2[4]['AF-7']) : '' ?>
+                    </td>
+                    <td class="AF-8">
+                        <?= isset($hyou2[4]['AF-8']) ? htmlspecialchars($hyou2[4]['AF-8']) : '' ?>
+                    </td>
+                    <td class="AF-9">
+                        <?= isset($hyou2[4]['AF-9']) ? htmlspecialchars($hyou2[4]['AF-9']) : '' ?>
+                    </td>
+                    <td class="AF-10">
+                        <?= isset($hyou2[4]['AF-10']) ? htmlspecialchars($hyou2[4]['AF-10']) : '' ?>
+                    </td>
+                    <td class="AF-11">
+                        <?= isset($hyou2[4]['AF-11']) ? htmlspecialchars($hyou2[4]['AF-11']) : '' ?>
+                    </td>
                     <td class="AF-12">特<br>殊<br>星</td>
                 </tr>
             </tbody>
@@ -313,76 +403,186 @@ $data = json_decode(file_get_contents($jsonPath), true);
                 </tr>
                 <!-- 2行目 -->
                 <tr>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
-                    <td>歳</td>
+                    <td class="BB-1">
+                        <?= isset($hyou3[0]['BB-1']) ? htmlspecialchars($hyou3[0]['BB-1']) : '' ?>
+                    歳</td>
+                    <td class="BB-2">
+                        <?= isset($hyou3[0]['BB-2']) ? htmlspecialchars($hyou3[0]['BB-2']) : '' ?>
+                    歳</td>
+                    <td class="BB-3">
+                        <?= isset($hyou3[0]['BB-3']) ? htmlspecialchars($hyou3[0]['BB-3']) : '' ?>
+                    歳</td>
+                    <td class="BB-4">
+                        <?= isset($hyou3[0]['BB-4']) ? htmlspecialchars($hyou3[0]['BB-4']) : '' ?>
+                    歳</td>
+                    <td class="BB-5">
+                        <?= isset($hyou3[0]['BB-5']) ? htmlspecialchars($hyou3[0]['BB-5']) : '' ?>
+                    歳</td>
+                    <td class="BB-6">
+                        <?= isset($hyou3[0]['BB-6']) ? htmlspecialchars($hyou3[0]['BB-6']) : '' ?>
+                    歳</td>
+                    <td class="BB-7">
+                        <?= isset($hyou3[0]['BB-7']) ? htmlspecialchars($hyou3[0]['BB-7']) : '' ?>
+                    歳</td>
+                    <td class="BB-8">
+                        <?= isset($hyou3[0]['BB-8']) ? htmlspecialchars($hyou3[0]['BB-8']) : '' ?>
+                    歳</td>
+                    <td class="BB-9">
+                        <?= isset($hyou3[0]['BB-9']) ? htmlspecialchars($hyou3[0]['BB-9']) : '' ?>
+                    歳</td>
+                    <td class="BB-10">
+                        <?= isset($hyou3[0]['BB-10']) ? htmlspecialchars($hyou3[0]['BB-10']) : '' ?>
+                    歳</td>
+                    <td class="BB-11">
+                        <?= isset($hyou3[0]['BB-11']) ? htmlspecialchars($hyou3[0]['BB-11']) : '' ?>
+                    歳</td>
                 </tr>
                 <!-- 3行目 -->
                 <tr class="BC">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="BC-1">
+                        <?= isset($hyou3[1]['BC-1']) ? htmlspecialchars($hyou3[1]['BC-1']) : '' ?>
+                    </td>
+                    <td class="BC-2">
+                        <?= isset($hyou3[1]['BC-2']) ? htmlspecialchars($hyou3[1]['BC-2']) : '' ?>
+                    </td>
+                    <td class="BC-3">
+                        <?= isset($hyou3[1]['BC-3']) ? htmlspecialchars($hyou3[1]['BC-3']) : '' ?>
+                    </td>
+                    <td class="BC-4">
+                        <?= isset($hyou3[1]['BC-4']) ? htmlspecialchars($hyou3[1]['BC-4']) : '' ?>
+                    </td>
+                    <td class="BC-5">
+                        <?= isset($hyou3[1]['BC-5']) ? htmlspecialchars($hyou3[1]['BC-5']) : '' ?>
+                    </td>
+                    <td class="BC-6">
+                        <?= isset($hyou3[1]['BC-6']) ? htmlspecialchars($hyou3[1]['BC-6']) : '' ?>
+                    </td>
+                    <td class="BC-7">
+                        <?= isset($hyou3[1]['BC-7']) ? htmlspecialchars($hyou3[1]['BC-7']) : '' ?>
+                    </td>
+                    <td class="BC-8">
+                        <?= isset($hyou3[1]['BC-8']) ? htmlspecialchars($hyou3[1]['BC-8']) : '' ?>
+                    </td>
+                    <td class="BC-9">
+                        <?= isset($hyou3[1]['BC-9']) ? htmlspecialchars($hyou3[1]['BC-9']) : '' ?>
+                    </td>
+                    <td class="BC-10">
+                        <?= isset($hyou3[1]['BC-10']) ? htmlspecialchars($hyou3[1]['BC-10']) : '' ?>
+                    </td>
+                    <td class="BC-11">
+                        <?= isset($hyou3[1]['BC-11']) ? htmlspecialchars($hyou3[1]['BC-11']) : '' ?>
+                    </td>
                     <td class="BC-12">干支<br>(納音)</td>
                 </tr>
                 <!-- 4行目 -->
                 <tr class="BE">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="BE-1">
+                        <?= isset($hyou3[2]['BE-1']) ? htmlspecialchars($hyou3[2]['BE-1']) : '' ?>
+                    </td>
+                    <td class="BE-2">
+                        <?= isset($hyou3[2]['BE-2']) ? htmlspecialchars($hyou3[2]['BE-2']) : '' ?>
+                    </td>
+                    <td class="BE-3">
+                        <?= isset($hyou3[2]['BE-3']) ? htmlspecialchars($hyou3[2]['BE-3']) : '' ?>
+                    </td>
+                    <td class="BE-4">
+                        <?= isset($hyou3[2]['BE-4']) ? htmlspecialchars($hyou3[2]['BE-4']) : '' ?>
+                    </td>
+                    <td class="BE-5">
+                        <?= isset($hyou3[2]['BE-5']) ? htmlspecialchars($hyou3[2]['BE-5']) : '' ?>
+                    </td>
+                    <td class="BE-6">
+                        <?= isset($hyou3[2]['BE-6']) ? htmlspecialchars($hyou3[2]['BE-6']) : '' ?>
+                    </td>
+                    <td class="BE-7">
+                        <?= isset($hyou3[2]['BE-7']) ? htmlspecialchars($hyou3[2]['BE-7']) : '' ?>
+                    </td>
+                    <td class="BE-8">
+                        <?= isset($hyou3[2]['BE-8']) ? htmlspecialchars($hyou3[2]['BE-8']) : '' ?>
+                    </td>
+                    <td class="BE-9">
+                        <?= isset($hyou3[2]['BE-9']) ? htmlspecialchars($hyou3[2]['BE-9']) : '' ?>
+                    </td>
+                    <td class="BE-10">
+                        <?= isset($hyou3[2]['BE-10']) ? htmlspecialchars($hyou3[2]['BE-10']) : '' ?>
+                    </td>
+                    <td class="BE-11">
+                        <?= isset($hyou3[2]['BE-11']) ? htmlspecialchars($hyou3[2]['BE-11']) : '' ?>
+                    </td>
                     <td class="BE-12">通変星</td>
                 </tr>
                 <!-- 5行目 -->
                 <tr class="BF">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="BF-1">
+                        <?= isset($hyou3[3]['BF-1']) ? htmlspecialchars($hyou3[3]['BF-1']) : '' ?>
+                    </td>
+                    <td class="BF-2">
+                        <?= isset($hyou3[3]['BF-2']) ? htmlspecialchars($hyou3[3]['BF-2']) : '' ?>
+                    </td>
+                    <td class="BF-3">
+                        <?= isset($hyou3[3]['BF-3']) ? htmlspecialchars($hyou3[3]['BF-3']) : '' ?>
+                    </td>
+                    <td class="BF-4">
+                        <?= isset($hyou3[3]['BF-4']) ? htmlspecialchars($hyou3[3]['BF-4']) : '' ?>
+                    </td>
+                    <td class="BF-5">
+                        <?= isset($hyou3[3]['BF-5']) ? htmlspecialchars($hyou3[3]['BF-5']) : '' ?>
+                    </td>
+                    <td class="BF-6">
+                        <?= isset($hyou3[3]['BF-6']) ? htmlspecialchars($hyou3[3]['BF-6']) : '' ?>
+                    </td>
+                    <td class="BF-7">
+                        <?= isset($hyou3[3]['BF-7']) ? htmlspecialchars($hyou3[3]['BF-7']) : '' ?>
+                    </td>
+                    <td class="BF-8">
+                        <?= isset($hyou3[3]['BF-8']) ? htmlspecialchars($hyou3[3]['BF-8']) : '' ?>
+                    </td>
+                    <td class="BF-9">
+                        <?= isset($hyou3[3]['BF-9']) ? htmlspecialchars($hyou3[3]['BF-9']) : '' ?>
+                    </td>
+                    <td class="BF-10">
+                        <?= isset($hyou3[3]['BF-10']) ? htmlspecialchars($hyou3[3]['BF-10']) : '' ?>
+                    </td>
+                    <td class="BF-11">
+                        <?= isset($hyou3[3]['BF-11']) ? htmlspecialchars($hyou3[3]['BF-11']) : '' ?>
+                    </td>
                     <td class="BF-12">十二運</td>
                 </tr>
                 <!-- 6行目 -->
                 <tr class="BG">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="BG-1">
+                        <?= isset($hyou3[4]['BG-1']) ? htmlspecialchars($hyou3[4]['BG-1']) : '' ?>
+                    </td>
+                    <td class="BG-2">
+                        <?= isset($hyou3[4]['BG-2']) ? htmlspecialchars($hyou3[4]['BG-2']) : '' ?>
+                    </td>
+                    <td class="BG-3">
+                        <?= isset($hyou3[4]['BG-3']) ? htmlspecialchars($hyou3[4]['BG-3']) : '' ?>
+                    </td>
+                    <td class="BG-4">
+                        <?= isset($hyou3[4]['BG-4']) ? htmlspecialchars($hyou3[4]['BG-4']) : '' ?>
+                    </td>
+                    <td class="BG-5">
+                        <?= isset($hyou3[4]['BG-5']) ? htmlspecialchars($hyou3[4]['BG-5']) : '' ?>
+                    </td>
+                    <td class="BG-6">
+                        <?= isset($hyou3[4]['BG-6']) ? htmlspecialchars($hyou3[4]['BG-6']) : '' ?>
+                    </td>
+                    <td class="BG-7">
+                        <?= isset($hyou3[4]['BG-7']) ? htmlspecialchars($hyou3[4]['BG-7']) : '' ?>
+                    </td>
+                    <td class="BG-8">
+                        <?= isset($hyou3[4]['BG-8']) ? htmlspecialchars($hyou3[4]['BG-8']) : '' ?>
+                    </td>
+                    <td class="BG-9">
+                        <?= isset($hyou3[4]['BG-9']) ? htmlspecialchars($hyou3[4]['BG-9']) : '' ?>
+                    </td>
+                    <td class="BG-10">
+                        <?= isset($hyou3[4]['BG-10']) ? htmlspecialchars($hyou3[4]['BG-10']) : '' ?>
+                    </td>
+                    <td class="BG-11">
+                        
+                    </td>
                     <td class="BG-12">特殊星</td>
                 </tr>
             </tbody>
