@@ -1,0 +1,32 @@
+# このファイルはメモ用です。
+
+2026-01-28
+
+---
+2026-01-28
+■バッグエンド機能追加の手順例
+
+1. 新しいPHPファイルを作成（例: /src/Other/index.php）
+	- POSTデータを受けて処理し、結果をechoで返す
+	例：
+	<?php
+	$year = $_POST['year'] ?? '';
+	$month = $_POST['month'] ?? '';
+	// ...必要な処理...
+	echo 'Otherの処理結果: ' . $year . '-' . $month;
+	?>
+
+2. script.jsでfetchを追加
+	const otherPromise = fetch('/src/Other/index.php', {
+		 method: 'POST',
+		 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+		 body: params.toString()
+	}).then(res => res.text());
+
+	// Promise.allに追加
+	const [jichuResult, nitchuResult, otherResult] = await Promise.all([jichuPromise, nitchuPromise, otherPromise]);
+	document.getElementById('resultOther').textContent = 'Otherの結果: ' + otherResult;
+
+3. index.phpに<div id="resultOther"></div>を追加
+
+この流れでバッグエンド処理を簡単に拡張できます。
