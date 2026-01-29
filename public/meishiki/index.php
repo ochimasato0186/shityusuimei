@@ -1,7 +1,5 @@
 <?php
 $jsonPath = __DIR__ . '/../../data/data.json';
-$jsonPath = __DIR__ . '/../../data/hyou2.json';
-$jsonPath = __DIR__ . '/../../data/hyou3.json';
 $data = json_decode(file_get_contents($jsonPath), true);
 ?>
 
